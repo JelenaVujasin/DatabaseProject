@@ -1,0 +1,57 @@
+{
+   "rule1":[{
+      "name":"RuleColumn",
+      "desc":"There is no column %s in table %s",
+      "sgs":"Try to remove column %s"
+   }],
+   "rule2":[{
+      "name":"RuleTable",
+      "desc":"There is no table %s in database",
+      "sgs":"Try to check table %s name"
+   }],
+   "rule3":[{
+      "name":"RuleForeignKey",
+      "desc":"Column %s in table %s is not foreign key",
+      "sgs":"Try to check column %s name"
+   }],
+   "rule4":[{
+      "name":"RuleMandatoryQuery",
+      "desc":"Forgoten required query parts",
+      "sgs":"Try to check query"
+   }],
+   "rule5":[{
+      "name":"RuleOrderQuery",
+      "desc":"Phrase %s cannot be before %s",
+      "sgs":"Fix priority of Phrases"
+   }],
+   "rule6":[{
+      "name":"RuleAlias",
+      "desc":"There is not quotes in alias with more than one word",
+      "sgs":"Try to add quotes on start and on end of allias"
+   }],
+   "rule7":[{
+      "name":"RuleGroupBy",
+      "desc":"There is not GROUP BY in function of aggregation",
+      "sgs":"Try to add GROUP BY"
+   }],
+   "rule8":[{
+      "name":"RuleWhere",
+      "desc":"There is function of aggregation in WHERE part",
+      "sgs":"Try to function of aggregation"
+   }],
+   "rule9":[{
+      "name":"RuleSameDataType",
+      "desc":"Wrong type of data used in %s function",
+      "sgs":"Change type of %s data"
+   }],
+   "rule10":[{
+      "name":"RuleUsageOfVariable",
+      "desc":"Variable %s is not used in fucntion",
+      "sgs":"Use variable %s or do not declare"
+   }],
+   "rule11":[{
+      "name":"RuleCSV",
+      "desc":"Selected CSV file is not compatible with %s table",
+      "sgs":"Try to select another table with same structure as selected CSV file or create table with same structure."
+   }]
+}
